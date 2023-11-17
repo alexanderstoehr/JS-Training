@@ -71,15 +71,12 @@ p.text {
 .seat:not(.occupied):hover {
     cursor: pointer;
     transform: scale(1.2);
-    /* background-color: aqua; */
 }
 .showcase .seat:hover {
     cursor: default;
     transform: scale(1);
 }
-/* .showcase .seat .available:hover{
-    background-color: lightgray !important;
-} */
+
 
 .showcase {
     background-color: rgba(0, 0, 0, 0.1);
