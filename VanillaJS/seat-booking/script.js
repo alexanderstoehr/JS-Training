@@ -5,7 +5,6 @@ const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
 
 let ticketPrice = +movieSelect.value;
-// console.log(ticketPrice);
 
 populateUi();
 
