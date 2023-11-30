@@ -18,8 +18,8 @@ Hangman.prototype.getPuzzle = function () {
 }
 //console.log(getPuzzle("cat"))
 
-const game1 = new Hangman("cat", 2)
+const game1 = new Hangman("Catdogs", 2)
 console.log(game1.getPuzzle())
 
-const game2 = new Hangman("New Jersey", 4)
+const game2 = new Hangman("New Jersey Police", 4)
 console.log(game2.getPuzzle())
