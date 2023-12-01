@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #242333;
     font-family: "lato";
@@ -16,6 +15,7 @@ body {
     min-height: 100vh;
     margin: 0px
 }
+
 .movie-container {
     margin: 20px 0;
 }
@@ -73,11 +73,11 @@ p.text {
     cursor: pointer;
     transform: scale(1.2);
 }
+
 .showcase .seat:hover {
     cursor: default;
     transform: scale(1);
 }
-
 
 .showcase {
     background-color: rgba(0, 0, 0, 0.1);
@@ -95,6 +95,7 @@ p.text {
     justify-content: center;
     margin: 0 10px;
 }
+
 .showcase li small {
     margin-left: 5px;
 }
